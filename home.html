@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+        
+<head>
+  <title>Home</title>
+  <link href="home.css" rel="stylesheet">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+<script src="//load.sumome.com/" data-sumo-site-id="dab5791444ee13e0edcfcf472536078a6dc9c038fed9e36db2c77bef861ad902" async="async"></script>
+
+<style>
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+<style>
+      body {
+        font-size: 25px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+      p {
+      font-size: 18px;
+      }
+</style>
+
+<style type="text/css">
+
+#date-location {left: 15px; top: 0px; text-align: center; background-color: #FFFFFF; border: 1px solid #006699; padding: 0px; z-index: 2; }
+
+.date-font {color: #006699; font: 20px arial, sans-serif; font-weight: bold; }
+
+</style>
+
+<style>
+@font-face {
+    font-family: circular_abstracts;
+    src: url(circular_abstracts.ttf);
+}
+
+a {
+    font-family: circular_abstracts;
+}
+
+h1 {
+    font-family: circular_abstracts;
+}
+
+p {
+    font-family: circular_abstracts;
+}
+
+ul#menu {
+    font-family: circular_abstracts;
+}
+
+.date-font {
+    font-family: circular_abstracts;
+}
+
+</style>
+
+</head>
+<body>
+
+<form id="form1" runat="server">
+
+<nav id="nav01"></nav>
+
+<div id="search"><script>
+  (function() {
+    var cx = '013983193458560348448:vcioxkw3r8g';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only> 
+</div>
+
+<div id="main">
+
+<script type="text/javascript">
+// START DATE SCRIPT
+
+var showdate	= "yes"  	// SHOW THE DATE | yes | no |
+
+if (showdate == "yes") {
+document.write('<div id="date-location">');
+var d=new Date();
+var weekday=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var monthname=new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+document.write('<span class="date-font">' + weekday[d.getDay()] + ', ');
+document.write(monthname[d.getMonth()] + ' ');
+document.write(d.getDate() + ', ');
+document.write(d.getFullYear())
+document.write('<br></span>')
+document.write('</div>');
+}
+</script>
+
+<!-- <a href="holiday link optional">
+  <img src="holiday picture url" alt="holiday picture description" style="width:200px;height:200px;border:0;">
+</a> -->
+
+<h1>Welcome to Riley's Multipurpose Website</h1>
+
+<p><a href="countdowns/valentines_day.html">Valentine's Day Countdown</a></p>
+
+  <footer id="foot01"></footer></FONT>
+</div>
+
+<script src="script.js"></script>
+
+</form>
+
+</body>
+</html>
