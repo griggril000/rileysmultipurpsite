@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Papa's Bakeria</title>
+<link rel="stylesheet" type="text/css"
+<link href="other.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="icon_100x100_papasbakeria.jpg" type="image/x-icon"/>
+
+<style>
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+
+<style>
+      body {
+        font-family: 'Product Sans';
+        font-size: 25px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+</style>
+
+<style type="text/css">
+
+#date-location {left: 15px; top: 0px; text-align: center; background-color: #FFFFFF; border: 1px solid #006699; padding: 0px; z-index: 2; }
+
+.date-font { color: #006699; font: 13px arial, sans-serif; font-weight: bold; }
+
+</style>
+
+</head>
+<body>
+
+<nav id="nav01"></nav>
+
+<div id="main">
+
+<script type="text/javascript">
+// START DATE SCRIPT
+
+var showdate	= "yes"  	// SHOW THE DATE | yes | no |
+
+   if (showdate == "yes") {
+document.write('<div id="date-location">');
+var d=new Date();
+var weekday=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var monthname=new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+document.write('<span class="date-font">' + weekday[d.getDay()] + ', ');
+document.write(monthname[d.getMonth()] + ' ');
+document.write(d.getDate() + ', ');
+document.write(d.getFullYear())
+document.write('<br></span>')
+document.write('</div>');
+}
+</script>
+
+<h1>Papa's Bakeria</h1>
+  <embed src="papasbakeria.swf" width="500" height="500">
+
+<!-- www.123contactform.com script begins here -->
+<p>Contact Me</p>
+<iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-1942203.html">
+<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
+</iframe>
+
+<p>Powered by <a class="footerLink13" title="123ContactForm" href="http://www.123contactform.com">123ContactForm</a>�|�<a style="font-size:small!important;color:#000000!important; text-decoration:underline!important;" title="Looks like phishing? Report it!" href="http://www.123contactform.com/sfnew.php?s=123contactform-52&control119314=http:///contact-form--1942203.html&control190=Report%20abuse" rel="nofollow">Report abuse</a></p><!-- www.123contactform.com script ends here -->
+
+  <footer id="foot01"></footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
