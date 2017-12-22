@@ -4,6 +4,5 @@ document.getElementById("nav01").innerHTML =
 "<ul id='menu'>" +
 "<li><a href='home'>Home</a></li>" +
 "<li><a href='games'>List of Games</a></li>" +
-"<li><a href='mypage/index'>My Page Log In</a></li>" +
-"<li><a href='index'>Log out</a></li>"
+"<li><a href='mypage/index'>My Page Log In</a></li>"
 "</ul>";
